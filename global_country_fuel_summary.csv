@@ -1,0 +1,584 @@
+Afghanistan,Hydro,791.07,6
+Afghanistan,Solar,37.01,2
+Albania,Hydro,4608.91,7
+Algeria,Gas,63380.37,31
+Algeria,Hydro,30.82,1
+Algeria,Solar,1157.6200000000001,27
+Angola,Gas,0.0,3
+Angola,Hydro,2664.77,5
+Angola,Oil,389.82,6
+Argentina,Coal,25175.760000000002,9
+Argentina,Gas,73047.29,57
+Argentina,Hydro,24434.53,50
+Argentina,Nuclear,6212.98,3
+Argentina,Oil,5433.02,96
+Argentina,Other,0.0,2
+Argentina,Solar,1165.94,7
+Argentina,Wind,1330.1299999999999,12
+Armenia,Gas,11677.880000000001,3
+Armenia,Hydro,1435.04,4
+Armenia,Nuclear,2411.04,1
+Australia,Coal,164961.11000000002,28
+Australia,Gas,55500.38,134
+Australia,Hydro,26896.850000000002,73
+Australia,Oil,2123.53,42
+Australia,Solar,9405.45,69
+Australia,Waste,0.0,50
+Australia,Wind,15009.94,65
+Austria,Gas,6195.26,3
+Austria,Hydro,29034.12,96
+Austria,Wind,239.16,4
+Azerbaijan,Gas,18282.61,8
+Azerbaijan,Hydro,2209.59,5
+Azerbaijan,Oil,1260.9,1
+Bahrain,Gas,48993.9,6
+Bahrain,Oil,0.04,1
+Bahrain,Solar,9.76,1
+Bangladesh,Coal,902.32,1
+Bangladesh,Gas,57916.020000000004,27
+Bangladesh,Hydro,945.31,1
+Bangladesh,Oil,8052.5,26
+Bangladesh,Solar,59.300000000000004,2
+Belarus,Gas,33619.53,17
+Belarus,Solar,345.59000000000003,7
+Belgium,Gas,16070.92,20
+Belgium,Hydro,4880.76,11
+Belgium,Nuclear,41142.5,3
+Belgium,Oil,41.88,9
+Belgium,Solar,168.66,3
+Belgium,Waste,374.8,8
+Belgium,Wind,2755.94,12
+Benin,Gas,70.87,1
+Benin,Oil,31.55,1
+Bhutan,Hydro,5144.7,5
+Bolivia,Gas,5486.8099999999995,9
+Bolivia,Hydro,1183.5,14
+Bolivia,Solar,125.11000000000001,3
+Bosnia and Herzegovina,Coal,10714.17,4
+Bosnia and Herzegovina,Hydro,6903.21,16
+Botswana,Coal,2987.96,2
+Brazil,Coal,20900.2,19
+Brazil,Gas,74396.62,118
+Brazil,Hydro,350682.39,701
+Brazil,Nuclear,15189.419999999998,2
+Brazil,Oil,16360.69,627
+Brazil,Other,334.96,1
+Brazil,Solar,4315.79,24
+Brazil,Waste,0.0,12
+Brazil,Wind,36686.8,412
+Brunei Darussalam,Gas,2600.0699999999997,4
+Bulgaria,Coal,22028.29,11
+Bulgaria,Hydro,3516.6,7
+Bulgaria,Nuclear,15544.99,1
+Bulgaria,Solar,440.71000000000004,23
+Bulgaria,Wind,335.96,1
+Burkina Faso,Hydro,103.53,2
+Burkina Faso,Solar,106.43,2
+Burundi,Hydro,141.14,3
+Burundi,Solar,16.78,1
+Cambodia,Hydro,2113.4,5
+Cambodia,Oil,51.72,3
+Cambodia,Solar,39.87,3
+Cambodia,Waste,0.0,2
+Cameroon,Hydro,2983.33,3
+Cameroon,Oil,329.09999999999997,4
+Canada,Coal,64444.49,15
+Canada,Gas,69091.58,75
+Canada,Hydro,356540.36,556
+Canada,Nuclear,99266.49,6
+Canada,Oil,3298.16,9
+Canada,Other,140.03,2
+Canada,Solar,2566.18,143
+Canada,Wind,28149.920000000002,241
+Cape Verde,Solar,10.99,1
+Central African Republic,Hydro,64.76,1
+Chile,Coal,26698.18,14
+Chile,Gas,11960.31,11
+Chile,Hydro,19279.14,99
+Chile,Oil,1714.47,73
+Chile,Solar,9828.67,77
+Chile,Wind,2490.42,18
+China,Coal,4656913.4,946
+China,Gas,181152.39,170
+China,Geothermal,114.74,2
+China,Hydro,923375.89,947
+China,Nuclear,246593.44,12
+China,Oil,1617.98,5
+China,Solar,88735.93,1318
+China,Wind,94613.98,835
+Colombia,Coal,2904.27,5
+Colombia,Gas,8281.15,5
+Colombia,Hydro,22443.71,12
+Colombia,Oil,770.66,1
+Colombia,Solar,170.94,2
+Congo,Gas,2142.52,2
+Congo,Hydro,737.1700000000001,4
+Congo,Oil,104.13,2
+Costa Rica,Geothermal,1041.79,5
+Costa Rica,Hydro,4270.78,18
+Costa Rica,Oil,29.7,3
+Costa Rica,Solar,9.65,1
+Cote DIvoire,Hydro,2145.57,5
+Croatia,Coal,1346.59,1
+Croatia,Gas,3531.1800000000003,4
+Croatia,Hydro,5372.43,17
+Croatia,Oil,190.09,2
+Cuba,Oil,10771.01,9
+Cuba,Solar,17.98,2
+Cuba,Wind,20.14,1
+Cyprus,Oil,1563.18,2
+Czech Republic,Coal,37797.03,22
+Czech Republic,Gas,3105.24,3
+Czech Republic,Hydro,2101.72,8
+Czech Republic,Nuclear,29100.09,2
+Czech Republic,Solar,1639.55,427
+Democratic Republic of the Congo,Gas,3.44,1
+Democratic Republic of the Congo,Hydro,9967.939999999999,13
+Democratic Republic of the Congo,Oil,2.08,1
+Denmark,Coal,12425.28,10
+Denmark,Gas,402.9699999999999,3
+Denmark,Oil,174.67,1
+Denmark,Solar,360.95,12
+Denmark,Wind,4583.36,19
+Dominican Republic,Hydro,519.49,3
+Dominican Republic,Oil,2894.4700000000003,5
+Dominican Republic,Solar,256.11,3
+Dominican Republic,Wind,150.37,1
+Ecuador,Gas,2887.48,4
+Ecuador,Hydro,13600.49,10
+Ecuador,Oil,959.21,6
+Ecuador,Solar,106.36,2
+Egypt,Gas,134899.58,33
+Egypt,Hydro,12621.0,4
+Egypt,Solar,1780.81,19
+Egypt,Wind,1604.53,1
+El Salvador,Geothermal,1565.6100000000001,2
+El Salvador,Hydro,1169.11,4
+El Salvador,Oil,836.79,2
+El Salvador,Solar,653.76,8
+Equatorial Guinea,Hydro,211.2,1
+Eritrea,Oil,261.65,2
+Estonia,Gas,57.150000000000006,2
+Estonia,Oil,106.56,2
+Estonia,Wind,763.33,13
+Ethiopia,Geothermal,0.0,1
+Ethiopia,Hydro,13464.51,11
+Ethiopia,Wind,492.37,1
+Fiji,Hydro,468.86,4
+Fiji,Wind,24.52,1
+Finland,Coal,4683.2,5
+Finland,Gas,2801.75,17
+Finland,Hydro,10425.23,95
+Finland,Nuclear,21780.52,2
+Finland,Oil,107.94,11
+Finland,Other,836.1600000000001,4
+Finland,Wind,179.65,12
+France,Coal,16319.68,5
+France,Gas,20143.83,9
+France,Hydro,64022.1,429
+France,Nuclear,381718.79,19
+France,Oil,4693.46,5
+France,Solar,8348.26,817
+France,Wind,16569.98,721
+French Guiana,Hydro,399.29,1
+French Guiana,Solar,9.84,1
+Gabon,Hydro,938.07,3
+Gabon,Oil,17.51,1
+Georgia,Gas,4926.45,3
+Georgia,Hydro,6295.95,16
+Germany,Coal,234868.54,96
+Germany,Gas,94676.14,180
+Germany,Hydro,24315.58,112
+Germany,Nuclear,75073.97,7
+Germany,Oil,4256.610000000001,24
+Germany,Other,2502.43,11
+Germany,Solar,9888.06,735
+Germany,Waste,3342.95,66
+Germany,Wind,15607.74,25
+Ghana,Gas,2809.24,2
+Ghana,Hydro,4059.61,3
+Ghana,Solar,34.38,1
+Greece,Coal,18283.629999999997,6
+Greece,Gas,17323.56,12
+Greece,Hydro,4686.49,18
+Greece,Oil,1021.6,3
+Greece,Solar,436.25,38
+Greece,Waste,0.0,1
+Greece,Wind,493.75,12
+Guatemala,Geothermal,297.78,2
+Guatemala,Hydro,3982.37,30
+Guatemala,Oil,432.85,19
+Guatemala,Solar,309.5,3
+Guatemala,Waste,0.0,2
+Guatemala,Wind,131.73000000000002,2
+Guinea,Hydro,1403.6299999999999,6
+Honduras,Hydro,1455.36,12
+Honduras,Oil,2640.34,5
+Honduras,Solar,1536.78,15
+Honduras,Waste,0.0,1
+Honduras,Wind,323.73,1
+Hungary,Coal,5139.74,3
+Hungary,Gas,8533.91,8
+Hungary,Nuclear,15111.29,1
+Hungary,Oil,55.03,1
+Hungary,Solar,130.3,5
+Iceland,Hydro,5818.6,14
+India,Coal,1079504.29,253
+India,Gas,78495.62,68
+India,Hydro,150461.95,233
+India,Nuclear,58757.0,9
+India,Oil,8334.4,17
+India,Solar,53634.13,851
+India,Wind,5292.26,108
+Indonesia,Coal,159629.09,70
+Indonesia,Gas,53375.59,41
+Indonesia,Hydro,14229.55,41
+Indonesia,Oil,1275.83,16
+Iran,Gas,201857.32,60
+Iran,Hydro,24920.46,19
+Iran,Nuclear,7514.0,1
+Iran,Oil,31177.46,18
+Iran,Solar,189.75,8
+Iran,Wind,227.17,1
+Iraq,Gas,20401.29,14
+Iraq,Hydro,5526.36,8
+Iraq,Oil,24548.07,6
+Ireland,Coal,5809.0,1
+Ireland,Gas,12673.49,10
+Ireland,Hydro,832.34,3
+Ireland,Oil,196.99,6
+Ireland,Wind,4293.51,38
+Israel,Coal,21805.67,2
+Israel,Gas,58565.77,18
+Israel,Solar,1158.17,37
+Israel,Wind,99.06,2
+Italy,Coal,29423.47,9
+Italy,Gas,146843.87,57
+Italy,Geothermal,5615.05,33
+Italy,Hydro,20347.54,58
+Italy,Oil,13063.57,11
+Italy,Other,1425.58,4
+Italy,Solar,3622.21,223
+Italy,Wind,191.76,1
+Jamaica,Gas,614.99,1
+Jamaica,Hydro,35.39,3
+Jamaica,Oil,1814.74,4
+Jamaica,Solar,41.84,1
+Jamaica,Wind,112.97,1
+Japan,Coal,272740.41,51
+Japan,Gas,241429.38,29
+Japan,Geothermal,2415.7,14
+Japan,Hydro,58847.979999999996,55
+Japan,Nuclear,339800.34,16
+Japan,Oil,73768.14,26
+Japan,Solar,9188.65,324
+Japan,Waste,76.17,1
+Japan,Wind,305.24,6
+Jordan,Gas,21795.67,7
+Jordan,Oil,967.31,1
+Jordan,Solar,1358.38,25
+Kazakhstan,Coal,93250.53,22
+Kazakhstan,Gas,1747.56,2
+Kazakhstan,Hydro,7392.15,4
+Kazakhstan,Solar,449.68,5
+Kenya,Geothermal,5876.459999999999,6
+Kenya,Hydro,3034.59,8
+Kenya,Oil,1103.18,6
+Kenya,Solar,142.59,1
+Kenya,Wind,711.13,2
+Kuwait,Gas,58477.28,8
+Kuwait,Solar,16.49,1
+Kyrgyzstan,Coal,1259.94,1
+Kyrgyzstan,Hydro,10335.46,6
+Laos,Hydro,11765.41,19
+Latvia,Gas,2841.27,2
+Latvia,Hydro,4389.0,3
+Lebanon,Gas,0.0,2
+Lesotho,Hydro,184.77,1
+Liberia,Hydro,218.71,1
+Libya,Gas,23602.29,9
+Libya,Oil,845.38,3
+Lithuania,Gas,719.83,4
+Lithuania,Hydro,2499.1000000000004,2
+Luxembourg,Gas,908.11,1
+Luxembourg,Hydro,4056.41,1
+Macedonia,Coal,3287.37,2
+Macedonia,Hydro,1034.47,10
+Madagascar,Hydro,310.21000000000004,5
+Madagascar,Solar,57.96,1
+Malawi,Hydro,1551.58,3
+Malaysia,Coal,92749.98,7
+Malaysia,Gas,66610.1,20
+Malaysia,Hydro,4723.72,9
+Malaysia,Oil,84.25,4
+Malaysia,Solar,488.58,14
+Mali,Hydro,1525.8799999999999,4
+Mauritania,Solar,83.08,2
+Mauritania,Wind,90.95,1
+Mauritius,Coal,1511.8100000000002,4
+Mauritius,Hydro,76.01,3
+Mauritius,Oil,1290.1599999999999,5
+Mauritius,Solar,263.94,6
+Mexico,Coal,30561.89,3
+Mexico,Gas,201404.55,61
+Mexico,Geothermal,5946.29,5
+Mexico,Hydro,40867.87,73
+Mexico,Nuclear,10020.32,1
+Mexico,Oil,27804.93,23
+Mexico,Solar,6796.54,29
+Mexico,Wind,3945.94,20
+Moldova,Coal,0.0,1
+Moldova,Gas,1528.97,3
+Moldova,Hydro,236.06,2
+Mongolia,Coal,4647.73,3
+Mongolia,Solar,77.21000000000001,4
+Mongolia,Wind,125.39,1
+Montenegro,Coal,1322.65,1
+Montenegro,Hydro,686.35,2
+Morocco,Coal,19241.8,3
+Morocco,Gas,9727.62,3
+Morocco,Hydro,2068.02,18
+Morocco,Oil,1545.99,5
+Morocco,Solar,755.3599999999999,5
+Morocco,Wind,3543.79,11
+Mozambique,Hydro,13796.58,3
+Myanmar,Gas,5751.68,12
+Myanmar,Hydro,10165.58,20
+Myanmar,Solar,106.24,1
+Namibia,Coal,66.0,1
+Namibia,Hydro,1071.45,1
+Namibia,Oil,0.0,3
+Namibia,Solar,201.12,8
+Nepal,Hydro,2055.05,12
+Nepal,Solar,65.33,2
+Netherlands,Coal,29044.46,5
+Netherlands,Gas,38766.97,12
+Netherlands,Nuclear,3203.82,1
+Netherlands,Solar,360.58,13
+Netherlands,Wind,6561.35,40
+New Zealand,Coal,1164.84,1
+New Zealand,Gas,2387.41,3
+New Zealand,Geothermal,4973.58,7
+New Zealand,Hydro,15393.05,24
+New Zealand,Oil,4.87,1
+New Zealand,Wind,1458.21,7
+Nicaragua,Geothermal,896.45,2
+Nicaragua,Hydro,265.28999999999996,2
+Nicaragua,Oil,1047.23,8
+Nicaragua,Solar,28.44,1
+Niger,Coal,226.0,1
+Niger,Oil,228.39,5
+Niger,Solar,12.95,1
+Nigeria,Gas,10186.38,9
+Nigeria,Hydro,7402.73,3
+Nigeria,Solar,16.89,1
+North Korea,Coal,3761.5800000000004,16
+North Korea,Hydro,9252.71,15
+Norway,Gas,4181.48,5
+Norway,Hydro,116868.37,291
+Norway,Wind,1472.03,10
+Oman,Gas,18384.72,9
+Oman,Solar,2098.26,3
+Pakistan,Gas,16471.87,13
+Pakistan,Hydro,30646.88,13
+Pakistan,Oil,22857.37,14
+Pakistan,Solar,1211.26,6
+Pakistan,Wind,1214.52,7
+Palestine,Solar,15.01,1
+Panama,Coal,171.0,1
+Panama,Hydro,3995.55,8
+Panama,Oil,799.02,4
+Panama,Solar,48.8,3
+Papua New Guinea,Hydro,556.63,6
+Paraguay,Hydro,52119.52,3
+Peru,Coal,614.17,1
+Peru,Gas,25268.120000000003,9
+Peru,Hydro,9623.67,14
+Peru,Solar,608.62,6
+Peru,Wind,277.97,2
+Philippines,Coal,55020.26,23
+Philippines,Gas,24516.559999999998,5
+Philippines,Geothermal,9767.06,9
+Philippines,Hydro,9589.33,17
+Philippines,Oil,1583.97,17
+Philippines,Solar,2101.2,48
+Philippines,Wind,132.94,2
+Poland,Coal,128599.22,71
+Poland,Hydro,5547.91,32
+Poland,Oil,2588.0299999999997,2
+Poland,Solar,23.25,9
+Poland,Wind,6844.7,59
+Portugal,Coal,15446.93,2
+Portugal,Gas,15634.7,4
+Portugal,Geothermal,224.8,2
+Portugal,Hydro,5329.3,122
+Portugal,Solar,1379.15,72
+Portugal,Waste,520.06,24
+Portugal,Wind,11397.83,224
+Qatar,Gas,53987.72,12
+Romania,Coal,14236.22,10
+Romania,Gas,9329.84,8
+Romania,Hydro,13490.56,10
+Romania,Nuclear,10374.08,1
+Romania,Solar,705.62,36
+Romania,Wind,941.1800000000001,3
+Russia,Coal,159152.26,96
+Russia,Gas,468163.09,258
+Russia,Geothermal,338.12,3
+Russia,Hydro,149099.44,105
+Russia,Nuclear,201157.66,10
+Russia,Oil,178.74,8
+Russia,Other,0.0,2
+Russia,Solar,1254.7,57
+Russia,Wind,32.02,3
+Rwanda,Hydro,529.36,6
+Rwanda,Solar,19.43,1
+Saint Lucia,Solar,5.97,1
+Saudi Arabia,Gas,211342.75,31
+Saudi Arabia,Oil,133781.32,53
+Saudi Arabia,Solar,315.23,6
+Senegal,Hydro,467.71,1
+Senegal,Oil,1867.68,5
+Senegal,Solar,236.34,4
+Serbia,Coal,33612.01,8
+Serbia,Hydro,9526.74,4
+Sierra Leone,Hydro,202.77,1
+Singapore,Gas,52740.09,8
+Singapore,Oil,384.77,3
+Singapore,Waste,127.19,3
+Slovakia,Coal,3205.25,2
+Slovakia,Gas,1118.52,3
+Slovakia,Hydro,6922.83,21
+Slovakia,Nuclear,13611.56,2
+Slovakia,Solar,34.019999999999996,2
+Slovenia,Coal,5250.9,3
+Slovenia,Gas,322.83,1
+Slovenia,Hydro,1324.6100000000001,3
+Slovenia,Nuclear,6017.0,1
+South Africa,Coal,229709.87,17
+South Africa,Gas,0.0,2
+South Africa,Hydro,3581.75,6
+South Africa,Nuclear,13236.99,1
+South Africa,Oil,99.53999999999999,2
+South Africa,Solar,5929.11,44
+South Africa,Waste,0.0,6
+South Africa,Wind,5933.44,24
+South Korea,Coal,250673.71,18
+South Korea,Gas,130792.34,33
+South Korea,Hydro,9323.53,36
+South Korea,Nuclear,146609.91999999998,6
+South Korea,Oil,9665.88,3
+South Korea,Solar,294.25,17
+South Korea,Waste,5.99,4
+South Korea,Wind,768.13,12
+Spain,Coal,40067.01,15
+Spain,Gas,62005.51,58
+Spain,Hydro,22343.76,124
+Spain,Nuclear,56882.64,5
+Spain,Oil,9722.95,26
+Spain,Solar,10359.039999999999,243
+Spain,Waste,135.09,15
+Spain,Wind,25277.54,342
+Sri Lanka,Coal,5103.0,1
+Sri Lanka,Hydro,4415.98,21
+Sri Lanka,Oil,5606.63,9
+Sri Lanka,Solar,86.8,3
+Sri Lanka,Wind,324.62,14
+Sudan,Gas,0.0,1
+Sudan,Hydro,7620.46,6
+Sudan,Oil,2633.1600000000003,10
+Suriname,Solar,9.81,1
+Swaziland,Hydro,170.31,3
+Sweden,Gas,424.64,3
+Sweden,Hydro,51403.69,142
+Sweden,Nuclear,69444.95999999999,3
+Sweden,Oil,85.38,1
+Sweden,Wind,1925.6100000000001,10
+Switzerland,Hydro,31961.28,162
+Switzerland,Nuclear,23050.67,4
+Switzerland,Solar,30.03,2
+Syrian Arab Republic,Gas,5178.18,8
+Syrian Arab Republic,Hydro,3240.44,3
+Syrian Arab Republic,Oil,17024.74,7
+Taiwan,Coal,100338.58,7
+Taiwan,Hydro,12250.29,9
+Taiwan,Nuclear,22445.989999999998,3
+Taiwan,Oil,4264.88,1
+Taiwan,Solar,219.3,3
+Taiwan,Wind,467.14,7
+Tajikistan,Hydro,17054.92,8
+Tanzania,Gas,1911.19,4
+Tanzania,Hydro,2271.39,6
+Tanzania,Oil,250.09,1
+Thailand,Coal,32679.03,5
+Thailand,Gas,126640.09,33
+Thailand,Hydro,9404.15,10
+Thailand,Solar,2474.83,141
+Thailand,Wind,370.3,2
+Togo,Hydro,253.74,1
+Togo,Oil,9.22,1
+Trinidad and Tobago,Gas,11436.130000000001,4
+Trinidad and Tobago,Oil,694.59,2
+Tunisia,Gas,27433.96,19
+Tunisia,Hydro,87.86,6
+Tunisia,Wind,310.8,2
+Turkey,Coal,99173.79,24
+Turkey,Gas,101921.61,21
+Turkey,Hydro,53651.340000000004,28
+Turkey,Oil,465.29999999999995,3
+Turkey,Solar,1341.75,68
+Turkey,Wind,1059.89,8
+Turkmenistan,Gas,4638.54,5
+Turkmenistan,Oil,0.0,2
+Uganda,Hydro,2547.77,6
+Uganda,Solar,99.02,3
+Ukraine,Coal,52739.15,21
+Ukraine,Gas,4217.9,2
+Ukraine,Hydro,14301.52,10
+Ukraine,Nuclear,85298.53,4
+Ukraine,Solar,1099.04,27
+United Arab Emirates,Gas,138219.44,24
+United Arab Emirates,Solar,1873.6299999999999,6
+United Kingdom,Coal,18677.47,8
+United Kingdom,Gas,138813.11000000002,55
+United Kingdom,Hydro,16507.969999999998,119
+United Kingdom,Nuclear,58930.48,8
+United Kingdom,Oil,202.07999999999998,11
+United Kingdom,Solar,13191.77,1170
+United Kingdom,Waste,1824.44,329
+United Kingdom,Wind,58488.68,780
+United States of America,Coal,1150861.91,286
+United States of America,Gas,1926994.19,1818
+United States of America,Geothermal,21022.26,65
+United States of America,Hydro,300321.72,1449
+United States of America,Nuclear,826910.84,58
+United States of America,Oil,21764.48,876
+United States of America,Other,11288.300000000001,16
+United States of America,Solar,73706.07,3283
+United States of America,Waste,1766.91,541
+United States of America,Wind,318528.56,1139
+Uruguay,Hydro,7532.69,4
+Uruguay,Oil,57.58,4
+Uruguay,Solar,424.92,13
+Uruguay,Wind,3441.29,39
+Uzbekistan,Coal,2362.1,2
+Uzbekistan,Gas,47884.399999999994,6
+Uzbekistan,Hydro,5186.74,6
+Uzbekistan,Oil,121.55,1
+Uzbekistan,Solar,177.96,1
+Venezuela,Gas,32982.81,34
+Venezuela,Hydro,74487.18000000001,9
+Vietnam,Coal,70339.02,24
+Vietnam,Gas,60848.990000000005,9
+Vietnam,Hydro,43331.67,174
+Vietnam,Oil,395.05,6
+Vietnam,Solar,2743.49,16
+Vietnam,Wind,376.08,5
+Yemen,Gas,1422.82,1
+Yemen,Oil,1384.51,6
+Zambia,Coal,2131.66,1
+Zambia,Hydro,9967.279999999999,5
+Zambia,Oil,623.38,7
+Zambia,Solar,121.28,1
+Zimbabwe,Coal,2785.1,1
+Zimbabwe,Hydro,3960.24,1

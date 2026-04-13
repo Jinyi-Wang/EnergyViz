@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EuroEnergyVis</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="nouislider.min.css" rel="stylesheet" />
+    <script src="nouislider.min.js" defer"></script>
+
+</head>
+<body>
+
+    <!-------------------- Shows the map -------------------->
+    <div id="map-container" style="background-color:#EEEEEE;">
+        <div id="map" style="height: 100%;"></div>
+        <!-- <iframe src="init_map0.html" style="width: 100%; height: 100%;"></iframe> -->
+        <!-- <iframe id="mapFrame" src="{{ url_for('static', filename='init_map.html') }}"  style="width: 100%; height: 100%;"></iframe> -->
+
+    </div>
+
+    <!-------------------- Setting neighor number and range -------------------->
+    <div id="setting" style="background-color:#f7f7f7; ">
+        <div id = "setNei">
+            <label for="neighborCount">Reload and Change Number of Nearest Neighbors:  </label>
+            <!-- <input type="number" id="numTargets" value="3" min="1" step="1" onchange="handleFile()" style="width: 50px;"><br/> -->
+            <input type="number" id="numTargets" value="3" min="1" step="1"  style="width: 50px;"><br/>
+        </div>
+
+        <!-- <div id="chartsContainer" style="display: flex; flex-wrap: wrap; gap: 20px;"></div> -->
+
+        <!-- a range slider-->
+        <div id="slider-container">
+            <div id="formatting-slider"></div><br/>
+    
+            <div id="forValues">Hi</div>
+        
+            <!-- <div id="slider-margin-value-min">0.00</div>
+            <div id="slider-margin-value-max">38889.00</div> -->
+        </div>
+    </div>
+
+    <!-------------------- Button to select the content -------------------->
+    <div id="buttonContainer">
+
+        <button onclick="showDiv('infoContainer')" class="button blue" >Plant Information</button>
+        <button onclick="showDiv('search-container')" class="button">Search Plants</button>
+        <button onclick="showDiv('chartContainer')" class="button">Country Information</button>
+
+        <br/>
+    </div>
+
+    <!-------------------- Shows detail info or Search a plant -------------------->
+    <div id="display-container" style="background-color: #f7f7f7;">
+        
+        <!-- Here is the details of plants -->
+        <div id="infoContainer">
+
+            <!-- graph -->
+            <div id="powerPlantTable">
+                <canvas id="myChart"  width="100%" height="75%"></canvas>
+                <button onclick="clearChart()">Clear Chart</button>
+
+            </div>
+            <!-- <div id="unit">The unit is GWh</div> -->
+
+            <br/>
+
+            <!-- text -->
+            <div id="textContainers">
+                <!-- <div id="contLabel"><b>Details:</b></div> -->
+                <div id="contLabel" style="font-weight: bold; padding: 5px">Details:</div>
+                <div id="detaContainer"></div>
+                <div id="neigContainer"></div>
+            </div>
+            <!-- Legend container
+            <div id="legend" style="position: absolute; top: 10px; right: 10px; background-color: white; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></div> -->
+        </div>
+
+
+        <!-- Here is the searching part -->
+        <div id="search-container"     style="background-color:#f3f3f3;">
+            <input type="text" id="searchInput" placeholder="Search specific plants...">
+            <button onclick="performSearch()" id="searchButton">Find</button>
+            <div id="searchResults">Shows the results...</div>
+        </div>
+
+        <!-- Here is a chart shows the details of the country-->
+        <div id="chartContainer"  class="chart-container" style="background-color:#f3f3f3;">
+            <div class="buttons">
+                <button id="selectAll">Select All</button>
+                <button id="deselectAll">Deselect All</button>
+            </div>
+            <table id="countryTable">
+                <thead>
+                    <tr>
+                        <th id="sortCountry">Country<span class="sort-arrow"></span></th>
+                        <th>Select</th>
+                        <th id="sortGeneration">Total Generation (GWh)<span class="sort-arrow"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table rows will be populated dynamically -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+    <!-------------------- Seperate left and right -------------------->
+    <div class="middle-divider"></div>
+
+
+    <!-------------------- Shows legend -------------------->
+    <!-- <div class="legend">
+        <div class="legend-item" data-fuel="Coal">
+            <div class="legend-color" style="background-color:#e31a1c;"></div>
+            <span>Coal</span>
+        </div>
+        <div class="legend-item" data-fuel="Gas">
+            <div class="legend-color" style="background-color:#fb9a99;"></div>
+            <span>Gas</span>
+        </div>
+        <div class="legend-item" data-fuel="Oil">
+            <div class="legend-color" style="background-color:#ff7f00;"></div>
+            <span>Oil</span>
+        </div>
+        <div class="legend-item" data-fuel="Biowaste">
+            <div class="legend-color" style="background-color:#b15928;"></div>
+            <span>Biowaste</span>
+        </div>
+        <div class="legend-item" data-fuel="Hydro">
+            <div class="legend-color" style="background-color:#1f78b4;"></div>
+            <span>Hydro</span>
+        </div>
+        <div class="legend-item" data-fuel="Wind">
+            <div class="legend-color" style="background-color:#33a02c;"></div>
+            <span>Wind</span>
+        </div>
+        <div class="legend-item" data-fuel="Solar">
+            <div class="legend-color" style="background-color:#fdbf6f;"></div>
+            <span>Solar</span>
+        </div>
+        <div class="legend-item" data-fuel="Other">
+            <div class="legend-color" style="background-color:#6a3d9a;"></div>
+            <span>Other</span>
+        </div>
+        <!-- Add more legend items as needed -->
+    <!-- </div> -->
+
+        <div class="legend">
+        <div class="legend-item" data-fuel="Coal">
+            <div class="legend-color" style="background-color:#bf812d;"></div>
+            <span>Coal</span>
+        </div>
+        <div class="legend-item" data-fuel="Gas">
+            <div class="legend-color" style="background-color:#fbb4ae;"></div>
+            <span>Gas</span>
+        </div>
+        <div class="legend-item" data-fuel="Oil">
+            <div class="legend-color" style="background-color:#543005;"></div>
+            <span>Oil</span>
+        </div>
+        <div class="legend-item" data-fuel="Nuclear">
+            <div class="legend-color" style="background-color:#FFD700;"></div>
+            <span>Nuclear</span>
+        </div>
+        <div class="legend-item" data-fuel="Biowaste">
+            <div class="legend-color" style="background-color:#8dd3c7;"></div>
+            <span>Biowaste</span>
+        </div>
+        <div class="legend-item" data-fuel="Hydro">
+            <div class="legend-color" style="background-color:#3288bd;"></div>
+            <span>Hydro</span>
+        </div>
+        <div class="legend-item" data-fuel="Wind">
+            <div class="legend-color" style="background-color:#93b6cc;"></div>
+            <span>Wind</span>
+        </div>
+        <div class="legend-item" data-fuel="Solar">
+            <div class="legend-color" style="background-color:#fdae61;"></div>
+            <span>Solar</span>
+        </div>
+        <div class="legend-item" data-fuel="Other">
+            <div class="legend-color" style="background-color:#8073ac;"></div>
+            <span>Other</span>
+        </div>
+        <!-- Add more legend items as needed -->
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

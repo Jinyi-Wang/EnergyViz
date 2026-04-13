@@ -1,0 +1,373 @@
+/* ------------------------------------------------------------------------------------------ */
+/* all the main parts here*/
+
+body {
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.middle-divider {
+    float: left;
+    width: 5px; 
+    background-color: rgba(128, 128, 128, 0.593); 
+    height: 100vh; 
+    position: absolute;
+    left: calc(75% - 5px);
+    top: 0;
+}
+
+
+/* Full-screen overlay */
+.country-summary-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);  /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;  /* above everything */
+}
+
+/* Inner panel */
+.country-summary-panel {
+    background: white;
+    padding: 20px;
+    width: 500px;
+    max-height: 80%;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+/* Close button */
+.country-summary-panel .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+/* #menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(25px);
+    width:80%;
+} */
+
+#map-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top:0;
+    /* top: 25px;  */
+    /* Adjust the top position to leave space for #menu */
+    /* height: calc(100vh - 25px); */
+    height: calc(100vh);
+    width: calc(75% - 5px);
+}
+
+#setting {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 120px;
+    width:25%;
+    /* overflow: auto; */
+    overflow-y: auto;
+
+}
+#display-container{
+    position: absolute;
+    background-color: #f7f7f7;
+
+    /* top: 175px; */
+    top: 187px;
+    right: 0;
+    /* height: calc(100vh-300px);  */
+
+    height: calc(100vh - 187px); 
+    width:25%;
+    overflow-y: auto; 
+}
+
+#buttonContainer {
+    position: fixed;
+    height: 42px;
+    /* height: calc(5vh); */
+    width:25%;
+    right: 0;
+    top: 125px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 2px solid rgba(128, 128, 128, 0.593);  */
+
+}
+
+#search-container {
+    height: 100%;
+    background-color:#f7f7f7;
+    overflow-y: auto;
+    /* position: absolute;
+    bottom: 0;
+    right: 0;
+    height: calc(30vh);
+    width:25%;*/
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* set legend */
+.legend {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: auto;
+    min-width: 50px;
+    height: auto;
+    border: 2px solid grey;
+    z-index: 9999;
+    background-color: white;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 12px; 
+}
+
+.legend-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px; 
+}
+.legend-item:last-child {
+    margin-bottom: 0; /* the last one donot need */
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.legend-item.selected span {
+    text-decoration: line-through;
+}
+
+
+#setNei{
+    padding: 3px;
+    font-size: 14px;
+    padding-left: 8px;
+    text-align: center; /* Aligns the contents of the div to the center */
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* the seeting of the range slider */
+#slider-container {
+    width: 80%;
+    margin: 0 auto; 
+    padding-top: 10%;
+    padding-bottom: 3%;
+    padding-left: 10%; /* Set your desired left padding percentage */
+    padding-right: 10%; /* Set your desired right padding percentage */
+    font-size: 14px; 
+    /* background-color: rgb(224, 241, 182); */
+    background-color: #f7f7f7;
+    /* height: 78px; */
+    height: 48px;
+    /* max-height: 70px; */
+    border-top: 2px solid rgba(128, 128, 128, 0.593); /* Add border */
+    border-bottom: 2px solid rgba(128, 128, 128, 0.593); 
+  }
+
+/* change the appearances */
+#formatting-slider {
+    height: 10px;
+}
+
+#formatting-slider .noUi-connect {
+    background: #2e86c1;
+}
+
+#formatting-slider .noUi-handle {
+    height: 18px;
+    width: 18px;
+    top: -5px;
+    right: -9px; /* half the width */
+    border-radius: 12px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* set the details in info part */
+
+#textContainers{
+    /* background-color: #fdc78e;  */
+    /* background-color: #ffdab2;  */
+    background-color: #dcdcdccc; 
+
+    overflow: auto;
+    /* border-top: 2px solid rgba(128, 128, 128, 0.593);  */
+
+}
+
+#neigContainer {
+    /* background-color: #fcebd9;  */
+    background-color: #f1f1f1bb; 
+    padding: 10px; 
+    margin-top: 10px; 
+    height: calc(25vh);
+    font-size: 12px; 
+    overflow: auto;
+
+}
+
+#detaContainer {
+    /* background-color: #fcebd9;  */
+    background-color: #f1f1f1bb; 
+
+    padding: 10px; 
+    /* margin-top: 10px;  */
+    height: calc(25vh);
+    font-size: 12px; 
+    overflow: auto;
+
+}
+
+/* #myChart {
+    height: calc(18vh);
+    background-color: #f0f0f0; 
+    font-size: 12px;  
+    position: absolute;
+    top: 12px;
+}  */
+
+#powerPlantTable {
+    background-color: #f7f7f7;
+    /* put the button in the middle of the line */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-bottom: 2px solid rgba(128, 128, 128, 0.593);  */
+
+  }
+
+#unit{
+    font-size: 10pt;
+    color: grey;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* Chart shows summary of the countries */
+.chart-container {
+    background-color: #f7f7f7;
+    border: 0px solid #afafaf;
+    padding: 0px;
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the chart */
+    margin-top: 0px; /* Adjust margin as needed */
+}
+
+#countryTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#countryTable th, #countryTable td {
+    border: 1px solid #afafaf;
+    padding: 0px;
+    text-align: left;
+    font-size: 14px; /* Set font size as desired */
+
+}
+
+#countryTable th {
+    cursor: pointer;
+    position: relative;
+    font-size: 14px; /* Set font size as desired */
+
+}
+
+.sort-arrow {
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.buttons button {
+    margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* Appearances, makes everything prettier */
+button {
+    cursor: pointer;
+    border: 2px solid #236795; /* border */
+    border-radius: 5px;
+    background-color: #3498db; 
+    color: #fff; 
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+/* hover */
+button:hover {
+    background-color: #2980b9; 
+}
+
+/* click */
+button:active {
+    background-color: #21618c; 
+}
+
+.button.blue {
+    background-color: #21618c;
+}
+/* .button {
+    background-color: green;
+} */
+
+
+
+/* input {
+    border: 2px solid #3498db; 
+    border-radius: 5px;
+    transition: border-color 0.3s ease; 
+}
+
+/* input get focused */
+/* input:focus {
+    border-color: #2980b9; 
+} */
+
+/* #contLabel {
+    padding: 10px; 
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size:50px;
+    font-weight: bold; /* Make the text bold */
+
+/* } */
+
